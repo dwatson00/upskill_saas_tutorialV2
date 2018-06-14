@@ -19,3 +19,16 @@
 h1,h2,h3 {
     font-family: 'Open-sans',sans-serif;
 }
+
+body, .navbar {
+    // Gradient provided by @_ighosh at UI graidents.com
+    background: #1D2B64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #F8CDDA, #1D2B64);
+    background: -moz-linear-gradient(left, #F8CDDA, #1D2B64);
+    background: -o-linear-gradient(left, #F8CDDA, #1D2B64);
+    background: linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }        
+    
+.navbar{
+    border:none;
+}
