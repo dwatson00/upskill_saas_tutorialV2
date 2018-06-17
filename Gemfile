@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 #use twitter bootsrap lib for front-end ui and layout
 gem 'bootstrap-sass','3.3.7'
+#rails v5.1 required for bootstrap to work
+gem 'jquery-rails'
 
 #Use font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
