@@ -47,6 +47,9 @@ gem 'font-awesome-sass', '4.6.2'
 #Use hirb for better console data presentation
 gem 'hirb', '0.7.3'
 
+#use Devise for user authentication
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
